@@ -1,0 +1,69 @@
+body{
+ margin:0 !important   
+}
+#nav{
+    position: fixed;
+    top: 0;    
+    height: 10vh;
+    width: 100%;
+    background-color: #f1ede9;
+    
+
+}
+#emphasis_font{
+    color: red;
+}
+
+#nav a{
+
+    font-size: 2.2vh;
+    text-decoration: none;
+    padding-right: 4vh;
+    color:black;
+    font-family: sans-serif;
+    display: flexbox;
+    position: relative;
+
+}
+
+main{
+    display: flexbox;
+    flex-direction: row !important;
+    flex-wrap: nowrap;
+    display: inline-flex;
+}
+
+#l_home{
+    order: 1;
+    height: 100vh;
+    width:50vw;
+    background-color: whitesmoke;
+}
+#r_home{
+    order: 2;
+    height: 100vh;
+    width:50vw;
+    background-color: #93a889;
+}
+
+
+#logo{
+    display: flex;
+    flex-direction: column;
+    white-space: nowrap;
+    align-items: center;
+    font-family: sans-serif;
+    margin-left: 4vh;
+}
+
+#links{
+    position: absolute;
+    right:10vh;
+    top:4vh;
+}
+
+#nav #logo{
+    max-width: 10vh;
+}
+
+
